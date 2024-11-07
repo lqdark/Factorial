@@ -1,6 +1,5 @@
 # -*- coding: cp1251 -*-
 import math
-from turtle import clear
 
 def isint(s):
     try:
@@ -22,7 +21,7 @@ while x != 1:
         else:
             print("Вы ввели отрицатльное число, повторите ввод.")
     else:
-        print('Ошибка ввода. Введите число.')
+        print('Ошибка ввода. Введите  число.')
         
 
 result = math.factorial(int(number))
